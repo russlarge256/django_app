@@ -1,0 +1,4 @@
+<ul>
+    {% for poll in polls %}
+    <li><a href="{%url 'poll_details_path' poll.pk %}">{{ poll.title }}</a></li>
+</ul>
