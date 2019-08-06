@@ -20,4 +20,8 @@ class Category(models.Model):
     description = models.TextField(blank=True)
     post = models.ManyToManyField(Post, blank=True, related_name='categories')
 
-    pass
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name_plural = 'Categories'
