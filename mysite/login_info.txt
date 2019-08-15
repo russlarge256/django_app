@@ -1,0 +1,3 @@
+username: russ
+email: russlarge@gmail.com
+password: Monkeyman1!
